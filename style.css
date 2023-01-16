@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 35px;
+    text-align: center;
+}
+
+.container img {
+    width: 90%;
+    height: 70%;
+    border-radius: 25px;
+    padding: 13.5px;
+}
+
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.container p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding: 13.5px;
+    margin-bottom: 15px;
+}
